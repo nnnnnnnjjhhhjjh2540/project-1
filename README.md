@@ -57,18 +57,18 @@ int main() {
     Course math(101, "Mathematics");
     Course cs(102, "Computer Science");
     
-    Student s1(1, "Ahmed Ali");
+    Student s1(1, "Ahmed");
     s1.enrollCourse(math);
     s1.enrollCourse(cs);
     
-    Professor p1(201, "Dr. Hassan");
+    Professor p1(201, "Hassan");
     p1.assignCourse(math);
     p1.assignCourse(cs);
     
-    cout << "--- Student Information ---" << endl;
+    cout << " Student Information " << endl;
     s1.displayInfo();
     
-    cout << "\n--- Professor Information ---" << endl;
+    cout << "\n Professor Information " << endl;
     p1.displayInfo();
     
     return 0;
